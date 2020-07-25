@@ -24,7 +24,7 @@ body {
 }
 /* header*/
 .header {
-  background-image: url(../img/fondo.jpeg);
+  background-image: url(../img/fondo-min.jpeg);
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -138,10 +138,21 @@ body {
   padding: 10px 30px;
   font-family: 'Kaushan Script';
   box-sizing: border-box;
+}/* personañ */
+.button_personal{
+  color: black;
+  background-color: rgb(151, 30, 167);
+  text-decoration: none;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 33px;
+  margin: 15px;
+  padding: 10px 30px;
+  font-family: 'Kaushan Script';
+  box-sizing: border-box;
 }
 /* footer */
 .footer{
-  background-image: url(../img/fondo.jpeg);
+  background-image: url(../img/fondo-min.jpeg);
   width: 100%;
   background-position: center;
   background-size: cover;
