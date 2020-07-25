@@ -1,0 +1,98 @@
+/*  Cabecera    */
+
+body {
+  background-color: #fff8ff;
+}
+.orange {
+  background-color: rgba(255, 114, 70, 0.85);
+}
+.yellow {
+  background: rgba(251, 255, 44, 0.85);
+}
+.purple {
+  background-color: rgba(122, 111, 255, 0.99);
+}
+.blue {
+  background: rgba(56, 255, 219, 0.99);
+}
+.green{
+    background: rgba(103, 255, 50, 0.94);
+}
+.pink{
+    background: #B16E9E;
+}
+.header {
+  background-image: url(../img/fondo.jpeg);
+  width: 100%;
+  background-position: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  width: 136px;
+  height: 136px;
+}
+.header h1 {
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.main_cards {
+  width: 225px;
+  padding: 0 0 25px 0;
+  background: rgba(254, 249, 249, 0.93);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 27px;
+  text-align: center;
+  margin: 10px;
+}
+.main_cards-img {
+  width: 225px;
+  border-radius: 13px 13px 0 0;
+}
+.main_cards-description {
+  margin: 5px 5px 20px 5px;
+  font-size: 18px;
+  font-family: "Pathway Gothic One";
+}
+.button {
+  color: black;
+  text-decoration: none;
+  width: 170px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 33px;
+  padding: 10px 30px;
+}
+.button:hover {
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.6) inset;
+}
+
+
+
+
+.footer{
+  background-image: url(../img/fondo.jpeg);
+  width: 100%;
+  background-position: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: teal;
+}
