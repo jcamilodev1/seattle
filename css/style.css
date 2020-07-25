@@ -39,6 +39,7 @@ body {
   text-align: center;
   font-family: "Bebas Neue";
   font-size: 40px;
+  text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.86);
 }
 .main {
   display: flex;
@@ -71,6 +72,7 @@ body {
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.6);
   border-radius: 33px;
   padding: 10px 30px;
+  font-family: 'Kaushan Script';
 }
 .button:hover {
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.6) inset;
@@ -88,6 +90,17 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.footer_container-social{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.social{
+    font-size: 40px;
+
 }
 .footer a{
     color: white;
