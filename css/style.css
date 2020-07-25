@@ -25,6 +25,7 @@ body {
   background-image: url(../img/fondo.jpeg);
   width: 100%;
   background-position: center;
+  background-size: cover;
   display: flex;
   padding: 10px;
   justify-content: center;
@@ -85,6 +86,7 @@ body {
   background-image: url(../img/fondo.jpeg);
   width: 100%;
   background-position: center;
+  background-size: cover;
   display: flex;
   padding: 10px;
   justify-content: center;
