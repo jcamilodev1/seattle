@@ -3,6 +3,10 @@
 body {
   background-color: #fff8ff;
 }
+.font-title{
+  font-family: 'Kaushan Script';
+  
+}
 /* color */
 .orange {
   background-color: rgba(255, 114, 70, 0.85);
