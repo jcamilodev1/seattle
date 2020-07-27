@@ -1,0 +1,29 @@
+.formualrio-animales{
+    width: 230px;
+    padding: 25px;
+    background: rgba(254, 249, 249, 0.93);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 27px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Pathway Gothic One";
+}
+.formualrio-animales label{
+    display: block;
+    margin: 10px 0;
+}
+.formualrio-animales input{
+    width: 80%;
+    padding: 5px;
+}
+.formualrio-animales input:nth-child(14){
+    margin-bottom: 10px;
+}
+.enviar{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+body > div.container > section > form > select{
+    width: 80%;
+}

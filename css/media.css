@@ -1,5 +1,5 @@
 @media (min-width: 1000px) {
-    .main__index, .main_history{
+    .main__index, .main_history,.main_donaciones{
         margin: 0 auto;
         width: 1024px;
     }
@@ -7,8 +7,15 @@
         font-size: 70px;
     }
     .main_history{
-        grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: auto;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .main_donaciones{
+        height: 600px;
+      }
+    .carusel{
+        grid-row: 3;
+        grid-column: 1 / span 3;
     }
     .main_history-tittle{
         grid-column: 1 / span 3;
@@ -26,4 +33,5 @@
     .main_history_contact{
         font-size: 30px;
     }
+    
 }

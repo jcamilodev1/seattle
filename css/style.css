@@ -98,6 +98,21 @@ body {
 .button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6) inset;
 }
+/* dona */
+.main_donaciones{
+  padding: 20px;
+  height: 350px;
+}
+.titulo_donaciones{
+  font-family: 'Kaushan Script';
+  display: block;
+  text-align: center;
+}
+.descripcion_donaciones{
+  font-family: "Pathway Gothic One";
+  font-size: 25px;
+  
+}
 /* historia */
 
 .main_history{
